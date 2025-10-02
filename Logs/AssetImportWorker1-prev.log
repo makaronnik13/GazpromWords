@@ -1,0 +1,1979 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.7f1 (7dd95c051e11) revision 8247644'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Programs\Unity\2021.3.11f1\6000.0.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/UnityProjects/WordHunt-master
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+52327
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/UnityProjects/WordHunt-master
+D:/UnityProjects/WordHunt-master
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [4428]  Target information:
+
+Player connection [4428]  * "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3484627573 [EditorId] 3484627573 [Version] 1048832 [Id] WindowsEditor(7,makar-pc) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [4428] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [4428] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Library Redirect Path: Library/
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 6.72 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.7f1 (7dd95c051e11)
+[Subsystems] Discovering subsystems at path D:/Programs/Unity/2021.3.11f1/6000.0.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/WordHunt-master/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8020 MB
+    Driver:   31.0.15.5161
+Initialize mono
+Mono path[0] = 'D:/Programs/Unity/2021.3.11f1/6000.0.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Programs/Unity/2021.3.11f1/6000.0.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Programs/Unity/2021.3.11f1/6000.0.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Programs/Unity/2021.3.11f1/6000.0.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Programs/Unity/2021.3.11f1/6000.0.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/Programs/Unity/2021.3.11f1/6000.0.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.009146 seconds.
+- Loaded All Assemblies, in  1.083 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 844 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.626 seconds
+Domain Reload Profiling: 2709ms
+	BeginReloadAssembly (388ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (134ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (114ms)
+	LoadAllAssembliesAndSetupDomain (406ms)
+		LoadAssemblies (388ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (394ms)
+			TypeCache.Refresh (391ms)
+				TypeCache.ScanAssembly (361ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1627ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1532ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1017ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (11ms)
+			ProcessInitializeOnLoadAttributes (188ms)
+			ProcessInitializeOnLoadMethodAttributes (310ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.798 seconds
+Refreshing native plugins compatible for Editor in 6.16 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.89 ms, found 2 plugins.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.269 seconds
+Domain Reload Profiling: 3058ms
+	BeginReloadAssembly (675ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (103ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (100ms)
+	LoadAllAssembliesAndSetupDomain (866ms)
+		LoadAssemblies (813ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (242ms)
+			TypeCache.Refresh (176ms)
+				TypeCache.ScanAssembly (150ms)
+			BuildScriptInfoCaches (54ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1270ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (989ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (398ms)
+			ProcessInitializeOnLoadMethodAttributes (462ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 4.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2827 unused Assets / (0.9 MB). Loaded Objects now: 3413.
+Memory consumption went from 108.3 MB to 107.4 MB.
+Total: 12.726800 ms (FindLiveObjects: 0.397100 ms CreateObjectMapping: 0.362500 ms MarkObjects: 11.228700 ms  DeleteObjects: 0.736900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 232916.849189 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '72653bc15ebf7fae8d183a15fc822034') in 0.0084346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.766 seconds
+Refreshing native plugins compatible for Editor in 4.40 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.119 seconds
+Domain Reload Profiling: 1888ms
+	BeginReloadAssembly (276ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (384ms)
+		LoadAssemblies (383ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (119ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1120ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (843ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (340ms)
+			ProcessInitializeOnLoadMethodAttributes (378ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2825 unused Assets / (1.0 MB). Loaded Objects now: 3415.
+Memory consumption went from 102.4 MB to 101.3 MB.
+Total: 12.652400 ms (FindLiveObjects: 0.308900 ms CreateObjectMapping: 0.284600 ms MarkObjects: 10.999500 ms  DeleteObjects: 1.058000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.655 seconds
+Refreshing native plugins compatible for Editor in 2.67 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.199 seconds
+Domain Reload Profiling: 1855ms
+	BeginReloadAssembly (207ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (345ms)
+		LoadAssemblies (327ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (118ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1200ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (898ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (362ms)
+			ProcessInitializeOnLoadMethodAttributes (408ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 9.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 2825 unused Assets / (1.0 MB). Loaded Objects now: 3415.
+Memory consumption went from 102.4 MB to 101.4 MB.
+Total: 17.200800 ms (FindLiveObjects: 0.593900 ms CreateObjectMapping: 0.997000 ms MarkObjects: 13.782700 ms  DeleteObjects: 1.825400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 94.734892 seconds.
+  path: Assets/DOTween/DOTween.dll
+  artifactKey: Guid(6a64930ac5680e64884012144b9bdc8c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DOTween/DOTween.dll using Guid(6a64930ac5680e64884012144b9bdc8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2ec379924947768f00cdafc52acc6e3e') in 0.1632801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-ThinItalic.ttf
+  artifactKey: Guid(8114ba43e481011479330d9f6ecc6355) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Montserrat/Montserrat-ThinItalic.ttf using Guid(8114ba43e481011479330d9f6ecc6355) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6ae5903e79e38a8196d817c8b002bf98') in 0.0611886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-Light.ttf
+  artifactKey: Guid(55ad599b90a7c724bb2dd820aa265efc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Montserrat/Montserrat-Light.ttf using Guid(55ad599b90a7c724bb2dd820aa265efc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '34cbe5b042887ac2f741cce0d946f577') in 0.0212561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Resources/comida.txt
+  artifactKey: Guid(4412453db76864144bfd794d9fbd67fd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/comida.txt using Guid(4412453db76864144bfd794d9fbd67fd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f2b3d9daf6751bf3f9faad598362a0c6') in 0.0174832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DOTween/Modules/DOTweenModulePhysics2D.cs
+  artifactKey: Guid(ef673c9612090fa47bf68568f58cb904) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DOTween/Modules/DOTweenModulePhysics2D.cs using Guid(ef673c9612090fa47bf68568f58cb904) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e44e7a769e45c4f4d4df5fffc25b76cd') in 0.0338254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Scripts/_Polish/HighlightBehaviour.cs
+  artifactKey: Guid(b0752708a42084602a22bfd817f00984) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/_Polish/HighlightBehaviour.cs using Guid(b0752708a42084602a22bfd817f00984) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a4926c3e4331a8d3ac092537bb774786') in 0.0160154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Resources/badwords.txt
+  artifactKey: Guid(7cf75c72525c24a9697c56fc960ccb84) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/badwords.txt using Guid(7cf75c72525c24a9697c56fc960ccb84) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3e38d15d73337f313a52c29c984324c1') in 0.0170331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scripts/MenuScript.cs
+  artifactKey: Guid(69cd1f7c819c949849e453eaf17e1702) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/MenuScript.cs using Guid(69cd1f7c819c949849e453eaf17e1702) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3306d022dadad296bee26f2f34226dfa') in 0.0202714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-BlackItalic.ttf
+  artifactKey: Guid(c7c8bbf61654b794c9cbc5fff19b16ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Montserrat/Montserrat-BlackItalic.ttf using Guid(c7c8bbf61654b794c9cbc5fff19b16ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b6b918f17f470eed2cc3ffa247440e4f') in 0.0315859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-ui-extensions/Editor/NonDrawingGraphicEditor.cs
+  artifactKey: Guid(ee2802949feca4c4c934331b6a0dc379) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Editor/NonDrawingGraphicEditor.cs using Guid(ee2802949feca4c4c934331b6a0dc379) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4a0d816d5b72ff62327773cc0e6313d2') in 0.0201736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Prefabs/_Particles/FinishPlaceParticle.prefab
+  artifactKey: Guid(3381b3ed9da384b2b918236cfdee6d66) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/_Particles/FinishPlaceParticle.prefab using Guid(3381b3ed9da384b2b918236cfdee6d66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3a30a5d01c1c484976693fe494d38bce') in 0.2372729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UIImageCrop.shader
+  artifactKey: Guid(ccf5a0c8f87d3c547aff3daecb3164a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Shaders/UIImageCrop.shader using Guid(ccf5a0c8f87d3c547aff3daecb3164a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a8301dc949d1d85c87f5f92d1721944f') in 0.025616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/unity-ui-extensions/README.md
+  artifactKey: Guid(f6cbd6c26357c6a40947224e172bfdf6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/README.md using Guid(f6cbd6c26357c6a40947224e172bfdf6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'efa9b8347e9045b32993a6498e7e62e6') in 0.0216751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/WebGLTemplates/BetterMinimal/index.html
+  artifactKey: Guid(a55656f7681055c45ae0a13656ba16f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/WebGLTemplates/BetterMinimal/index.html using Guid(a55656f7681055c45ae0a13656ba16f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3a95f845b2cda8b8d2dec5fa9b16c48f') in 0.0216309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Audio/Music/wordhunt_loop.wav
+  artifactKey: Guid(530300470343e4c428a11e1357f0c2ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/Music/wordhunt_loop.wav using Guid(530300470343e4c428a11e1357f0c2ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e18c8d5eb5672a1fc43abb5b0c17d43f') in 0.1071955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/unity-ui-extensions/Editor/CanvasGroupActivator.cs
+  artifactKey: Guid(f60a419e63d329f43ba1bf57e98b34bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Editor/CanvasGroupActivator.cs using Guid(f60a419e63d329f43ba1bf57e98b34bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fc73d27ca0bbe27baff208fb876969dc') in 0.0201581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UI Particle Multiply.shader
+  artifactKey: Guid(320f6bb7bde369b4a85c9d89a9ba5268) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Shaders/UI Particle Multiply.shader using Guid(320f6bb7bde369b4a85c9d89a9ba5268) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '81591aea0194300248796219ad6b4fc9') in 0.0207335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/unity-ui-extensions/Editor/CUIBezierCurveEditor.cs
+  artifactKey: Guid(40e01e4fb1e006b46a0f127c8a9907b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Editor/CUIBezierCurveEditor.cs using Guid(40e01e4fb1e006b46a0f127c8a9907b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b4d8321d5db2f6b0d2ee21b99b8be434') in 0.0252665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Scripts/LetterObjectScript.cs
+  artifactKey: Guid(c227c67f240c27e42ade7a6f5a32fe61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/LetterObjectScript.cs using Guid(c227c67f240c27e42ade7a6f5a32fe61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1ad5aa3f5365efc49b1b8103e0dce50a') in 0.0216964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-Medium.ttf
+  artifactKey: Guid(cb186e2af10fb114ca9c3223ccfb7cb8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Montserrat/Montserrat-Medium.ttf using Guid(cb186e2af10fb114ca9c3223ccfb7cb8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '25faaf237ca34bc57876ecd83a9173a1') in 0.0327736 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/unity-ui-extensions/Editor/BezierLineRendererEditor.cs
+  artifactKey: Guid(4ef6a0d3c3259384982ae3974fe7e618) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Editor/BezierLineRendererEditor.cs using Guid(4ef6a0d3c3259384982ae3974fe7e618) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '243c0702cdd15941e275524e0cc12ebf') in 0.0216418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UISoftAdditive.shader
+  artifactKey: Guid(fb2e16a3d1280334a9e05394e1890f09) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Shaders/UISoftAdditive.shader using Guid(fb2e16a3d1280334a9e05394e1890f09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '737624f68503660358a701faa4cb013c') in 0.0237047 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Prefabs/UI_Line.prefab
+  artifactKey: Guid(c4cac4e4045e84eb8b79681d1a60230a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/UI_Line.prefab using Guid(c4cac4e4045e84eb8b79681d1a60230a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ec849d80fb6907983c951fbc7dc27fce') in 0.0911919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/unity-ui-extensions/Examples/RadialSlider/radial_slider.unity
+  artifactKey: Guid(84f742a1c72d4f5479bc951e9fd76fae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/RadialSlider/radial_slider.unity using Guid(84f742a1c72d4f5479bc951e9fd76fae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd78e618946e8ae21d04dcb5fed154737') in 0.0193675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/ItemAnimationClip.anim
+  artifactKey: Guid(0749a4928b1d06d4faccd624c75bcdb2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/ItemAnimationClip.anim using Guid(0749a4928b1d06d4faccd624c75bcdb2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9243ccb9ff748cac4d14884b8559b601') in 0.0583709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/unity-ui-extensions/Examples/RadialSlider/UpdateRadialValue.cs
+  artifactKey: Guid(b5921b909b28e7f4f9a57906c667c9ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/RadialSlider/UpdateRadialValue.cs using Guid(b5921b909b28e7f4f9a57906c667c9ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c3fed29d3b5ac6d5b11b0bf94cc40ee0') in 0.0228865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-SemiBold.ttf
+  artifactKey: Guid(ee717378719c7724e97b4241f652f98b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Montserrat/Montserrat-SemiBold.ttf using Guid(ee717378719c7724e97b4241f652f98b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0bdd9cc71ff1db4d0a2c1bf85d2bc135') in 0.0387171 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/unity-ui-extensions/Examples/ScrollRectConflictManager/ScrollrectConflictManagerDemo.unity
+  artifactKey: Guid(73d92df095c9b454eaa4b74bc3c559c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/ScrollRectConflictManager/ScrollrectConflictManagerDemo.unity using Guid(73d92df095c9b454eaa4b74bc3c559c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fc7aaec8fddc3986c9e8b97b422f6ffa') in 0.0278547 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/unity-ui-extensions/Editor/CUIGraphicEditor.cs
+  artifactKey: Guid(b7b84624f1ba7bd49b6cfc63b25f4b7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Editor/CUIGraphicEditor.cs using Guid(b7b84624f1ba7bd49b6cfc63b25f4b7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd45c8c40accf5103a5f7fca6ca69116f') in 0.0249309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/unity-ui-extensions/Shaders/SoftMaskShader.shader
+  artifactKey: Guid(947afae4d36f1274ea2e4098262ceef6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Shaders/SoftMaskShader.shader using Guid(947afae4d36f1274ea2e4098262ceef6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7d9122c90c2d57c951b4c3f3f1819df2') in 0.0248326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Images/diagrect.png
+  artifactKey: Guid(6b9a9f6737f424475a17f9ae5aaafb61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Images/diagrect.png using Guid(6b9a9f6737f424475a17f9ae5aaafb61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cd61edec4f138d92f581640cd01c854f') in 0.1101559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Resources/natureza.txt
+  artifactKey: Guid(9861ae3fc9d168041b6595d0133a3063) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Resources/natureza.txt using Guid(9861ae3fc9d168041b6595d0133a3063) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1b1a938c8f91126cdf1491654780918d') in 0.0236575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UI Particle AddMultiply.shader
+  artifactKey: Guid(088bbfd9222ee044cb4e4699336e9ff1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Shaders/UI Particle AddMultiply.shader using Guid(088bbfd9222ee044cb4e4699336e9ff1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8794db53373841d403492bca6fe9bd47') in 0.0195285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/unity-ui-extensions/Examples/Cooldown/fadeUp.png
+  artifactKey: Guid(2b2d3cd4355b13b4699d3f1abf451cf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/Cooldown/fadeUp.png using Guid(2b2d3cd4355b13b4699d3f1abf451cf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bdd7b94fd5afb1c301a2a5038577e648') in 0.0592359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Horizontal Scroll Snap.controller
+  artifactKey: Guid(01b7a44c798a89c40a32385b0fd06de6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Horizontal Scroll Snap.controller using Guid(01b7a44c798a89c40a32385b0fd06de6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5ecd8e10948b0e607b0fde029eb9f663') in 0.0442463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/BoxSlider.cs
+  artifactKey: Guid(a3fd655d1aa9c684d88cdfdd0da9aa34) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/BoxSlider.cs using Guid(a3fd655d1aa9c684d88cdfdd0da9aa34) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'aefa0e3e42a9551387c086325a9590ca') in 0.0207306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/ShineEffector.cs
+  artifactKey: Guid(ced63edd65f3aed41a6c4125a5f54217) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/ShineEffector.cs using Guid(ced63edd65f3aed41a6c4125a5f54217) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0b4c90120f8a5602e7218c12e62b9040') in 0.0226273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/Gradient.cs
+  artifactKey: Guid(0671953a9c649e5438e4d961d1983915) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/Gradient.cs using Guid(0671953a9c649e5438e4d961d1983915) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4ecb338f2c7db25891ca30381be51cca') in 0.0210873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/CylinderText.cs
+  artifactKey: Guid(0ec526a95e7733b4396be80d3e1df80e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/CylinderText.cs using Guid(0ec526a95e7733b4396be80d3e1df80e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '318676ba3368e778060476197a9cafc6') in 0.0218496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/Gradient2.cs
+  artifactKey: Guid(45facfdc6a639f041b007c036dc527b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/Gradient2.cs using Guid(45facfdc6a639f041b007c036dc527b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '901061cc7ff0c3ebb85fa5c0c95d9159') in 0.0213596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/MultiTouchScrollRect.cs
+  artifactKey: Guid(9f2bebd34aaa76541b97e61752a7d262) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/MultiTouchScrollRect.cs using Guid(9f2bebd34aaa76541b97e61752a7d262) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8faf78462a1385c4e5490421c3ce4f9c') in 0.0222978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/SoftMaskScript.cs
+  artifactKey: Guid(b8ee60af491978345bc197ed4e1316bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/SoftMaskScript.cs using Guid(b8ee60af491978345bc197ed4e1316bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4dd87daf49bf508ac12bd8f2f55aefb1') in 0.02384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/unity-ui-extensions/Examples/UILineRenderer/UILineRendererDemo.unity
+  artifactKey: Guid(b01f9e610467c714c9077cf2622eb7b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/UILineRenderer/UILineRendererDemo.unity using Guid(b01f9e610467c714c9077cf2622eb7b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0b01ccca130228672307f485f703e783') in 0.0267972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/DOTween/Modules/DOTweenModuleSprite.cs
+  artifactKey: Guid(601dbe5687085f4409a19c83cb459d18) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DOTween/Modules/DOTweenModuleSprite.cs using Guid(601dbe5687085f4409a19c83cb459d18) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '53e43dd75ae5eefbcbea343bdfcdde3a') in 0.0236232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/unity-ui-extensions/Examples/Cooldown/sphere.png
+  artifactKey: Guid(be862b17a8fa1544da2abdb50784ccf9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/Cooldown/sphere.png using Guid(be862b17a8fa1544da2abdb50784ccf9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9771ba8815a3f4e2d8d2a8e5be56aaf2') in 0.0434534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/DOTween/Modules/DOTweenModuleUtils.cs
+  artifactKey: Guid(e864059c06ac07d4aa491ebc3906f6e8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DOTween/Modules/DOTweenModuleUtils.cs using Guid(e864059c06ac07d4aa491ebc3906f6e8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '86e4eceae9511a967c81ca291e62542f') in 0.0209963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/unity-ui-extensions/Editor/CUIImageEditor.cs
+  artifactKey: Guid(8445204f2ee16e0408274b8400deef53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Editor/CUIImageEditor.cs using Guid(8445204f2ee16e0408274b8400deef53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9b832d73986e7f37bb69dc937afda09e') in 0.0275731 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/ScrollSnapManagedTests.unity
+  artifactKey: Guid(76a920c191abd8a4f9351c7f17c2cdef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/ScrollSnapManagedTests.unity using Guid(76a920c191abd8a4f9351c7f17c2cdef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f7086a27306001569b16c9342a82cc1b') in 0.0308635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UI Particle MultiplyDouble.shader
+  artifactKey: Guid(0765ecef58833c3429346a1fee45e4e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Shaders/UI Particle MultiplyDouble.shader using Guid(0765ecef58833c3429346a1fee45e4e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c122a74e74981001e9db4195944c03d5') in 0.0193539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/DOTween/Modules/DOTweenModulePhysics.cs
+  artifactKey: Guid(e42b7d5a84db70e43b41a2d6094ac2e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DOTween/Modules/DOTweenModulePhysics.cs using Guid(e42b7d5a84db70e43b41a2d6094ac2e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '21876a1fc40176bdb190702bb0006a31') in 0.0215755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/unity-ui-extensions/Editor/TextPicEditor.cs
+  artifactKey: Guid(5fe8e67609bbee14d8ad0805aac72799) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Editor/TextPicEditor.cs using Guid(5fe8e67609bbee14d8ad0805aac72799) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '43bfd934b1669c5e593531e85be84dc4') in 0.0190501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-Thin.ttf
+  artifactKey: Guid(b96ec17eb40b5d548b1a178f621404f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Montserrat/Montserrat-Thin.ttf using Guid(b96ec17eb40b5d548b1a178f621404f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e0a0e485308e8c61b5d9c77a38c8d61e') in 0.0407663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-Black.ttf
+  artifactKey: Guid(cb5a79fe4becaa248adf6c92805f304d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Montserrat/Montserrat-Black.ttf using Guid(cb5a79fe4becaa248adf6c92805f304d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '82c13dac5f717178d4d66b6ef5ea9c0e') in 0.0424978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Audio/Clips/highlight.wav
+  artifactKey: Guid(0c56f22ce1a994bf89563b5842d1511e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Audio/Clips/highlight.wav using Guid(0c56f22ce1a994bf89563b5842d1511e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5c61c17f017b3ef9e0dfc9aa7b2d6335') in 0.0495902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/CLZF2.cs
+  artifactKey: Guid(f69e6f88ce470d742adfcbaf0bcbd001) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/CLZF2.cs using Guid(f69e6f88ce470d742adfcbaf0bcbd001) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bbdebfd25c423dca71b50311b27ae79b') in 0.021316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/HorizontalScrollSnap.cs
+  artifactKey: Guid(609dcc22aadcc16418bfac22716ee9a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/HorizontalScrollSnap.cs using Guid(609dcc22aadcc16418bfac22716ee9a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '317582dca7c8c969de7aff24a47be53a') in 0.0231456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Primitives/UICircle.cs
+  artifactKey: Guid(8185cad1aa202d04ebb9e14ffa533a87) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Primitives/UICircle.cs using Guid(8185cad1aa202d04ebb9e14ffa533a87) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '53d902b5a01f0fd7562a4ce5f519e51e') in 0.0252222 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/CurvedLayout.cs
+  artifactKey: Guid(8de815c5a2c592d4da033da3146168c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/CurvedLayout.cs using Guid(8de815c5a2c592d4da033da3146168c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '616a3244afa5d810bd506ea13a0b01a1') in 0.0212562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/FancyScrollViewCell.cs
+  artifactKey: Guid(73c54b1a82a56fb4f906ab8c75f7a030) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/FancyScrollViewCell.cs using Guid(73c54b1a82a56fb4f906ab8c75f7a030) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f6c75221eb8a7afcd8d6dd89aae3d3d8') in 0.0232291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/unity-ui-extensions/Scripts/InputModules/GamePadInputModule.cs
+  artifactKey: Guid(26158f38115d49a4a915f46c7eced4ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/InputModules/GamePadInputModule.cs using Guid(26158f38115d49a4a915f46c7eced4ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2dd31a4a055a13146b56e950e16b4c4d') in 0.0240206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapBase.cs
+  artifactKey: Guid(c2a77c45e5354bf40bbd63bd817dee47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapBase.cs using Guid(c2a77c45e5354bf40bbd63bd817dee47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c27df5cec261493914c3aff8225b1910') in 0.0245994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/Circle.cs
+  artifactKey: Guid(f11f61a6960d26445a760da7dae63cf2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/Circle.cs using Guid(f11f61a6960d26445a760da7dae63cf2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4412730e5aafaf77cfc15c2ff9a2974b') in 0.0270715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Primitives/UILineRenderer.cs
+  artifactKey: Guid(5b33b2e663e78774c9f0c9af55018725) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Primitives/UILineRenderer.cs using Guid(5b33b2e663e78774c9f0c9af55018725) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0ab7355e86accadeb33b03dff67c2b60') in 0.0243609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/unity-ui-extensions/Scripts/MenuSystem/SimpleMenu.cs
+  artifactKey: Guid(2fdf3dae987a8d44fa2e065bc4edaf3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/MenuSystem/SimpleMenu.cs using Guid(2fdf3dae987a8d44fa2e065bc4edaf3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c00b5b5ff7d828103ea27bc3eef906ba') in 0.0209184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/FancyScrollView.cs
+  artifactKey: Guid(51a6dd27af9048f45a7fc0019884d41e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/FancyScrollView.cs using Guid(51a6dd27af9048f45a7fc0019884d41e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1838d2b933e4572e3e4c35114b03c4aa') in 0.0212463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/UIParticleSystem.cs
+  artifactKey: Guid(f5f85388e938d9e4599afc6d9441ed57) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/UIParticleSystem.cs using Guid(f5f85388e938d9e4599afc6d9441ed57) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd2e8d34a0b1825148c42460ad71df530') in 0.0252213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/BezierPath.cs
+  artifactKey: Guid(89b61e0416e1256469165fca78d5ed21) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/BezierPath.cs using Guid(89b61e0416e1256469165fca78d5ed21) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5feb6593d72ae6c8307b1ec76b17cb01') in 0.0239453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/DragCorrector.cs
+  artifactKey: Guid(af1c809ef037025409983d19f9b0baac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/DragCorrector.cs using Guid(af1c809ef037025409983d19f9b0baac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0521503cc66bd966ad90ab6f7b470b90') in 0.0222242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/ScrollPositionController.cs
+  artifactKey: Guid(cc9ad31350b1b6348b57c626195a562d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/ScrollPositionController.cs using Guid(cc9ad31350b1b6348b57c626195a562d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fb7d1bc234d8eca1066c9b32c0844076') in 0.0236865 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapScrollbarHelper.cs
+  artifactKey: Guid(2ec759101f5786b4b89aae8a1b47ca4b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/ScrollSnapScrollbarHelper.cs using Guid(2ec759101f5786b4b89aae8a1b47ca4b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '356cab8ce09eb699650bdf4f679a872f') in 0.0232704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/UpdateScrollSnap.cs
+  artifactKey: Guid(ea8b6678b91baa44eb4de7f20e6684a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/UpdateScrollSnap.cs using Guid(ea8b6678b91baa44eb4de7f20e6684a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '291a4d2109c7874393191a8b2f973242') in 0.0194255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/unity-ui-extensions/Examples/ReorderableList/ReorderableList.unity
+  artifactKey: Guid(9b8d590979bc3264ab9a7df11a0e8c3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/ReorderableList/ReorderableList.unity using Guid(9b8d590979bc3264ab9a7df11a0e8c3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1e2b1e295bb5fbf9f928ce1cd495ce86') in 0.0204643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Scripts/AudioManager.cs
+  artifactKey: Guid(13ffe17afbbc742b5a9f303fd5e58dca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/AudioManager.cs using Guid(13ffe17afbbc742b5a9f303fd5e58dca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e1d7eef737dddd4038377af6557f99ab') in 0.0241328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-ExtraBold.ttf
+  artifactKey: Guid(c58a447fe23da484a901fc040268e45a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Montserrat/Montserrat-ExtraBold.ttf using Guid(c58a447fe23da484a901fc040268e45a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bd2036a4203717126a7975bf5e629541') in 0.0310136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UI Particle Blend.shader
+  artifactKey: Guid(98fed5ba500a9a04a80325266b9911bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Shaders/UI Particle Blend.shader using Guid(98fed5ba500a9a04a80325266b9911bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9e7757b977e177c530c3da927423e362') in 0.0194575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/PaginationManager.cs
+  artifactKey: Guid(7cff19ba98ef11d4ebf2e8cbeb6a4342) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/PaginationManager.cs using Guid(7cff19ba98ef11d4ebf2e8cbeb6a4342) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f121ad87d974a16808e3757876933004') in 0.0243288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/ScrollConflictManager.cs
+  artifactKey: Guid(cee880d45d4659540ada44c73f95a947) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/ScrollConflictManager.cs using Guid(cee880d45d4659540ada44c73f95a947) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '40a366805eb5e7da5f2db66d4c7b3f98') in 0.0217691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/TestCompression.cs
+  artifactKey: Guid(585e75d4a56389b4690b3506f37751bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/TestCompression.cs using Guid(585e75d4a56389b4690b3506f37751bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e06e205360fba4d4de338e40103f7823') in 0.020092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02CellDto.cs
+  artifactKey: Guid(cf9eb20bd16f1aa448580b085861a75b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02CellDto.cs using Guid(cf9eb20bd16f1aa448580b085861a75b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '27f43c0a6a0e404a2cbf580650ee4788') in 0.020037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01ScrollView.cs
+  artifactKey: Guid(c7e0222f92bdad84c9ee57a127efe088) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01ScrollView.cs using Guid(c7e0222f92bdad84c9ee57a127efe088) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6e6f50ea40c590777d8c69a16708a140') in 0.0185225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/ReadOnlyAttribute.cs
+  artifactKey: Guid(244394c76ae0d484d83567b74f4332cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/ReadOnlyAttribute.cs using Guid(244394c76ae0d484d83567b74f4332cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7b57aa1b2a3dc3cc8cfd0210dd6b94af') in 0.0225408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectExtensions.cs
+  artifactKey: Guid(9abaa5d90896b4d4a937574b6b3878ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectExtensions.cs using Guid(9abaa5d90896b4d4a937574b6b3878ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f3ad51249b1b02d9b0cf38bbc0efbb3f') in 0.0211795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03CellDto.cs
+  artifactKey: Guid(f620c6407f9b6c74390ab02bfa99d777) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03CellDto.cs using Guid(f620c6407f9b6c74390ab02bfa99d777) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b1a7abdba6edef66994344e0bc6cb44d') in 0.0264964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/UI_InfiniteScroll.cs
+  artifactKey: Guid(61fe0f6272fa94d4eb3dafc6aecd50ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/UI_InfiniteScroll.cs using Guid(61fe0f6272fa94d4eb3dafc6aecd50ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a0f5322358e33bbb25897d1a7ac3f88b') in 0.0234342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/unity-ui-extensions/Scripts/VR Extensions/VRInputModule.cs
+  artifactKey: Guid(303ab8dad3437bf46814373cfb86cc5d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/VR Extensions/VRInputModule.cs using Guid(303ab8dad3437bf46814373cfb86cc5d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c7a6e370e5987e480db4a9c7059f1dd0') in 0.0210351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/UIExtensionMethods.cs
+  artifactKey: Guid(08fd87e2db0639a4caf7a053f227a470) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/UIExtensionMethods.cs using Guid(08fd87e2db0639a4caf7a053f227a470) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6cdb67e197e4257da09c384bd3a8895c') in 0.0206468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/PPIViewer.cs
+  artifactKey: Guid(b0f2698294b9b524bb75cb394378eb6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/PPIViewer.cs using Guid(b0f2698294b9b524bb75cb394378eb6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '33ba675c50644245cde0013043253095') in 0.0248563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectTweener.cs
+  artifactKey: Guid(37838caa3fcff7f46a5e1418b35173c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectTweener.cs using Guid(37838caa3fcff7f46a5e1418b35173c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4b89921c0014ea2febfbee73507fa710') in 0.0226512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01CellDto.cs
+  artifactKey: Guid(e14503efd7a60d54db0d148e00aa2169) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/01_Basic/Example01CellDto.cs using Guid(e14503efd7a60d54db0d148e00aa2169) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6b0ce6a3b250b79ea6567a692216da4f') in 0.0188616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/unity-ui-extensions/Scripts/VR Extensions/VRCursor.cs
+  artifactKey: Guid(3d7a94ee2faf9f04696882b3a2cbf035) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/VR Extensions/VRCursor.cs using Guid(3d7a94ee2faf9f04696882b3a2cbf035) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '229808547593b2e4470fa2077e2e24fe') in 0.0181164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02ScrollViewCell.cs
+  artifactKey: Guid(9409f360a0deeb949a3635126edf8000) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/Example02ScrollViewCell.cs using Guid(9409f360a0deeb949a3635126edf8000) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '47591b964d570b6a1ef220a357fb36eb') in 0.0210586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006862 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/UILineConnector.cs
+  artifactKey: Guid(8b52ee3a4491f3742bb35fa3eec798d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/UILineConnector.cs using Guid(8b52ee3a4491f3742bb35fa3eec798d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '188b3d89457e07319ed8f7604e3a2a6b') in 0.024939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/ExtensionsToggleGroup.cs
+  artifactKey: Guid(bf31acdd4bba9fc45b8a5cc6de985aee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/ExtensionsToggleGroup.cs using Guid(bf31acdd4bba9fc45b8a5cc6de985aee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5968655b51836bb90c8c230c13770a25') in 0.0198072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/unity-ui-extensions/Scripts/UIWindowBase.cs
+  artifactKey: Guid(8803d62703eac8a44a3e9884c71009da) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/UIWindowBase.cs using Guid(8803d62703eac8a44a3e9884c71009da) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9eca0cdadc45a2f4042f6e9586590855') in 0.0238722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/CooldownButton.cs
+  artifactKey: Guid(74a62d95b3be0fe47871dd48fca58b7d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/CooldownButton.cs using Guid(74a62d95b3be0fe47871dd48fca58b7d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2d6b7ef988648951230d650ca7e5bf74') in 0.0162172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollView.cs
+  artifactKey: Guid(7454b91158ad32e49ab5d3cdac132574) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollView.cs using Guid(7454b91158ad32e49ab5d3cdac132574) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '36ae5ae2cc00c06519ae0cb1b0bf4c46') in 0.022007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/WebGLTemplates/BetterMinimal/thumbnail.png
+  artifactKey: Guid(540b8c69b1e6b1f48b4b1b61fa0b1c8a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/WebGLTemplates/BetterMinimal/thumbnail.png using Guid(540b8c69b1e6b1f48b4b1b61fa0b1c8a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0dc604d2a4daf3be70939a6222626784') in 0.0217237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-SemiBoldItalic.ttf
+  artifactKey: Guid(ffe715dd915e2aa4eb22d34e0a5e5fa7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Montserrat/Montserrat-SemiBoldItalic.ttf using Guid(ffe715dd915e2aa4eb22d34e0a5e5fa7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ee1402aaa82a8980ace1cd749e2ef17d') in 0.0405061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorSliderImage.cs
+  artifactKey: Guid(cd3cce5a27f2db94fa394c4719bddecd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorSliderImage.cs using Guid(cd3cce5a27f2db94fa394c4719bddecd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '31a4b3863598e9f6712512add9c6b426') in 0.0222897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/Document/screencast3.gif
+  artifactKey: Guid(d9ab7e8869df23c40a3327a44afc271d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/Document/screencast3.gif using Guid(d9ab7e8869df23c40a3327a44afc271d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4977e325014cdd42b27ad93b4736301d') in 0.0487112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/ExampleSelectable.cs
+  artifactKey: Guid(d0644987412a04edd8105e64bdd008b2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/ExampleSelectable.cs using Guid(d0644987412a04edd8105e64bdd008b2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0da875b8d071d7977ed96a212e653b49') in 0.0235807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListItem.cs
+  artifactKey: Guid(e1dd512d0ed874740902b01df530b2dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListItem.cs using Guid(e1dd512d0ed874740902b01df530b2dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '348b5ddae82abb60edc339e72aac2239') in 0.0232966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerControl.cs
+  artifactKey: Guid(7e448480810b55843aefa91c1ab74cd2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerControl.cs using Guid(7e448480810b55843aefa91c1ab74cd2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '271249970a598509dca2dffa888e99c2') in 0.0244245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollViewCell.cs
+  artifactKey: Guid(173c545de5ff4e048bcc3642f8392e4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03ScrollViewCell.cs using Guid(173c545de5ff4e048bcc3642f8392e4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '462c0f8c529482ea107142e31944014b') in 0.0246561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/RescaleDragPanel.cs
+  artifactKey: Guid(c210a6e68020b4349a4020e7da57826e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/RescaleDragPanel.cs using Guid(c210a6e68020b4349a4020e7da57826e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '059cb74a83193d0316ee4b5808a7f62e') in 0.0184181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/ResizePanel.cs
+  artifactKey: Guid(db83442065d59344c9bf6ffa63a23777) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/RescalingPanels/ResizePanel.cs using Guid(db83442065d59344c9bf6ffa63a23777) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a4cb373a7c50c202167a1945741d08ff') in 0.0178907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableList.cs
+  artifactKey: Guid(6b333d67eb08d464d823874f6a1666c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableList.cs using Guid(6b333d67eb08d464d823874f6a1666c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4f41270d5e764b54c3e6dd6a2bc3fd75') in 0.0163235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scripts/ScrollingCalendar.cs
+  artifactKey: Guid(e0185937f87604a7497a35019c125107) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Scripts/ScrollingCalendar.cs using Guid(e0185937f87604a7497a35019c125107) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0947b7dbdd93e4591eda8086d4e69b67') in 0.019719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/Document/inspector.png
+  artifactKey: Guid(3c51f0505df8ace4085bc6439a41c10b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/Document/inspector.png using Guid(3c51f0505df8ace4085bc6439a41c10b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '001e865fee7dd7c853b6c4d32019a581') in 0.0440353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorLabel.cs
+  artifactKey: Guid(b32edf53f1ae84f479c9439b4b5f5b91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorLabel.cs using Guid(b32edf53f1ae84f479c9439b4b5f5b91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '92de1b46e590694108b1bcec815e5b80') in 0.0180068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIImage.cs
+  artifactKey: Guid(9ab7726a352b5004cbf5f8e153868637) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIImage.cs using Guid(9ab7726a352b5004cbf5f8e153868637) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8f60b09b847ff631dac85cdd7d821cff') in 0.024117 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ComboBox/ComboBox.cs
+  artifactKey: Guid(cd26acd32e1be2747b9e5f3587b2b1d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ComboBox/ComboBox.cs using Guid(cd26acd32e1be2747b9e5f3587b2b1d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0ad7956d7d012c04b571b42f9f51dfd6') in 0.0184077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIBezierCurve.cs
+  artifactKey: Guid(983a3e151cd916d4faf111dc86266574) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIBezierCurve.cs using Guid(983a3e151cd916d4faf111dc86266574) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e7ce10d718689bd0126f503e60980a18') in 0.0216762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/SVBoxSlider.cs
+  artifactKey: Guid(7a0647785ed421e449239dbd6512e156) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/SVBoxSlider.cs using Guid(7a0647785ed421e449239dbd6512e156) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '557ab19ef5af46f5ae7ed3d7201beb14') in 0.0232973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListElement.cs
+  artifactKey: Guid(916e98f1b982a9a4082fcc45c87b66c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ReorderableList/ReorderableListElement.cs using Guid(916e98f1b982a9a4082fcc45c87b66c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '637793c5f8fcb6cd82591c21b85a13be') in 0.0269539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIMisc.cs
+  artifactKey: Guid(2e82bd2b2afc435438d5d8d7d3459dd0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/CurlyUI/CUIMisc.cs using Guid(2e82bd2b2afc435438d5d8d7d3459dd0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'df1ad61a8b01eb582eb03ef5102c7d65') in 0.0187024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/Document/screencast2.gif
+  artifactKey: Guid(d45321e545c13724ab2ba5721db45b93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/Document/screencast2.gif using Guid(d45321e545c13724ab2ba5721db45b93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '22d5c7ad769991f8b495965917ec4154') in 0.0452501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIAdditiveEffect.cs
+  artifactKey: Guid(7a29c8587a101744ea9e6198d89cb2df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIAdditiveEffect.cs using Guid(7a29c8587a101744ea9e6198d89cb2df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4ee70624659358a0ba414e2d39919215') in 0.0243354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/MainMenu.cs
+  artifactKey: Guid(36b6ee4bee83c498e935eebb6778babb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/MainMenu.cs using Guid(36b6ee4bee83c498e935eebb6778babb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '58d8486e93f4b435117deb1c2ee0d2aa') in 0.0225674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Animations/03_InfiniteScroll_Animation.anim
+  artifactKey: Guid(add491cbb06317b48a88a94b0081db1d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Animations/03_InfiniteScroll_Animation.anim using Guid(add491cbb06317b48a88a94b0081db1d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1446d8c8f3e551741d425d44eba34181') in 0.0414398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/OptionsMenu.cs
+  artifactKey: Guid(5b01016ffd900480386cb61341f3269f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/OptionsMenu.cs using Guid(5b01016ffd900480386cb61341f3269f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e46c433b476465b2cc43617a34c35d41') in 0.0159936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/MenuSystem/MenuManager.prefab
+  artifactKey: Guid(f0f89c3fccbfa4bddbac45ae1effe466) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/MenuSystem/MenuManager.prefab using Guid(f0f89c3fccbfa4bddbac45ae1effe466) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd6f0c454d39d2c77d6e6324a38fa73b3') in 0.036757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/PauseMenu.cs
+  artifactKey: Guid(0d6228c7c19194b999f9b95fa4711b67) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/PauseMenu.cs using Guid(0d6228c7c19194b999f9b95fa4711b67) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ee3141984013c7e53ccac31aa3c5f106') in 0.0158539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/FloatTween.cs
+  artifactKey: Guid(e28e1e9e18f7daa4db5d1ac279d6ce66) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/FloatTween.cs using Guid(e28e1e9e18f7daa4db5d1ac279d6ce66) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b781d8e8871bb605442748a0b6fa1897') in 0.0255232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/PauseMenu.prefab
+  artifactKey: Guid(5f7dc93bebf1e41e280baafd8eaa59ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Prefabs/Menus/PauseMenu.prefab using Guid(5f7dc93bebf1e41e280baafd8eaa59ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9d47bb96f78e82b1c5c2575f10e97616') in 0.0622225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/ITweenValue.cs
+  artifactKey: Guid(9edf9da4c14ad2843879a2331b00f738) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/Accordion/Tweening/ITweenValue.cs using Guid(9edf9da4c14ad2843879a2331b00f738) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bcbdfcc1be1d4652697e3a3082654601') in 0.0266761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/Events/HSVChangedEvent.cs
+  artifactKey: Guid(3d95ce8fba3dbbf4eb14411412169b88) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/Events/HSVChangedEvent.cs using Guid(3d95ce8fba3dbbf4eb14411412169b88) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5a66c68d26465c5afb7e41bfe3b23546') in 0.0191573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorImage.cs
+  artifactKey: Guid(4210a64d2ce72e9488cf2ad174e9df5b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorImage.cs using Guid(4210a64d2ce72e9488cf2ad174e9df5b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8b12e7e6889f8975960f31ee14827f69') in 0.02082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Prefabs/MonthsVertical.prefab
+  artifactKey: Guid(6d45e8f0aa19044ffb3553ca52febef2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/UIVerticalScrollerDemo/Prefabs/MonthsVertical.prefab using Guid(6d45e8f0aa19044ffb3553ca52febef2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '77c83ddb0f937de2f7d7cd1f0702af2f') in 0.0828231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorValues.cs
+  artifactKey: Guid(0f473590aed5e3f4ab5a0157b2a53dbd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorValues.cs using Guid(0f473590aed5e3f4ab5a0157b2a53dbd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b49e022ff7389cf144df4cb962b56d7d') in 0.01784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListButton.cs
+  artifactKey: Guid(491c635e1f309294187ff24b5c71e8cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ComboBox/DropDownListButton.cs using Guid(491c635e1f309294187ff24b5c71e8cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '36003b7d77c736ab43708be199aaa5a2') in 0.0205511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIScreenEffect.cs
+  artifactKey: Guid(07afba72913387d488019cbb35ec1965) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UIScreenEffect.cs using Guid(07afba72913387d488019cbb35ec1965) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4d414802e0dbbeac3f06cb87de366fe7') in 0.021641 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerTester.cs
+  artifactKey: Guid(06851a815227e5044b0e3c1bf9b3a282) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ColorPicker/ColorPickerTester.cs using Guid(06851a815227e5044b0e3c1bf9b3a282) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1ca956668a8303e8764263f8f08926ce') in 0.0217101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/RadialSlider.cs
+  artifactKey: Guid(803cebee00d5c504e930205383017dc1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/RadialSlider.cs using Guid(803cebee00d5c504e930205383017dc1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd098146e6db187c117e779711bf17a7b') in 0.0233114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/LetterSpacing.cs
+  artifactKey: Guid(8ee10f5b9a0e16c40b25e079c03a17a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/LetterSpacing.cs using Guid(8ee10f5b9a0e16c40b25e079c03a17a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '09d7b71e336fc6c506ac439bf7417f44') in 0.0229721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/GameMenu.cs
+  artifactKey: Guid(88abd442995e349778e1d164d50af64d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/MenuExample/Scripts/Menus/GameMenu.cs using Guid(88abd442995e349778e1d164d50af64d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ecfcb6f9f67fc522731b9f4e7e64ec70') in 0.0233274 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/IBoxSelectable.cs
+  artifactKey: Guid(72b70b31ccbda4bae8dd5cda36d2e02d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/SelectionBox/IBoxSelectable.cs using Guid(72b70b31ccbda4bae8dd5cda36d2e02d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c1e1303819b614880bf14e9c89a99b82') in 0.0233857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UISoftAdditiveEffect.cs
+  artifactKey: Guid(692867a1eddc7df419ec15b05b4084ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Effects/ShaderEffects/UISoftAdditiveEffect.cs using Guid(692867a1eddc7df419ec15b05b4084ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '022f7b03c8584aed68168de77fba4b71') in 0.0182016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/02_CellEventHandling.unity
+  artifactKey: Guid(22d1be941599faf45b04ab4c6a2def09) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/02_CellEventHandling/02_CellEventHandling.unity using Guid(22d1be941599faf45b04ab4c6a2def09) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8244752f8a7908bdf433dadf19fddfde') in 0.0243425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Horizontal_page_prefab.prefab
+  artifactKey: Guid(f0537c94867b99f4b975a024066f29a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/HSS-VSS-ScrollSnap/Horizontal_page_prefab.prefab using Guid(f0537c94867b99f4b975a024066f29a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c90cb3e8a4dbedb7ded28014bcd90f68') in 0.0440997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/unity-ui-extensions/Examples/Cooldown/CooldownExamples.unity
+  artifactKey: Guid(3dc06f5aa2fbb624fbec6c044cbcaa03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/Cooldown/CooldownExamples.unity using Guid(3dc06f5aa2fbb624fbec6c044cbcaa03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a2f393e2bfff3ff385820bfcc629910e') in 0.0236623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/Accordion/AccordionElement.cs
+  artifactKey: Guid(3c9d341c4bc7de548937508e6f837144) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/Accordion/AccordionElement.cs using Guid(3c9d341c4bc7de548937508e6f837144) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '78ad81e8965de9c7063cd2a7e989708c') in 0.0259994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-Italic.ttf
+  artifactKey: Guid(ee3ccf05fef89c148817f1f15c4a98bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Montserrat/Montserrat-Italic.ttf using Guid(ee3ccf05fef89c148817f1f15c4a98bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd1d0236c69b7602789bba690e7a112fb') in 0.0391796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UI Particle VertexLit Blended.shader
+  artifactKey: Guid(65bbb789ada58ab44aaedbe09687f089) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Shaders/UI Particle VertexLit Blended.shader using Guid(65bbb789ada58ab44aaedbe09687f089) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e9999720478730c57bbef00cff3a3584') in 0.0211887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/DOTween/Editor/Imgs/Footer.png
+  artifactKey: Guid(0bfd017fe41a8254baefe04b8309c44d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DOTween/Editor/Imgs/Footer.png using Guid(0bfd017fe41a8254baefe04b8309c44d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ecd99988682e5f744a50995682cfae00') in 0.0343476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectLinker.cs
+  artifactKey: Guid(4f1f9a7e297738d47b8c6286a737406f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/ScrollRectLinker.cs using Guid(4f1f9a7e297738d47b8c6286a737406f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '64c7a9d9e13fd85e0d8442bf97a73eb2') in 0.0183674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03Scene.cs
+  artifactKey: Guid(45018617dd0e7cf4d8b8800224ac5d40) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/03_InfiniteScroll/Example03Scene.cs using Guid(45018617dd0e7cf4d8b8800224ac5d40) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ebf33412192eb659f7b6246b994db3b8') in 0.017111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Utilities/NonDrawingGraphic.cs
+  artifactKey: Guid(51db53697a53f7a479b8570674dae649) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Utilities/NonDrawingGraphic.cs using Guid(51db53697a53f7a479b8570674dae649) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '57dcba8b83c9b355f03f588260d52e4d') in 0.0199273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/unity-ui-extensions/Examples/Cooldown/swipe.png
+  artifactKey: Guid(85b639891c9cfa54998a58964e8ef747) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/Cooldown/swipe.png using Guid(85b639891c9cfa54998a58964e8ef747) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '73baa99aec87899ccfff37905863f8e2') in 0.0419859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scripts/_Extra/DebugScript.cs
+  artifactKey: Guid(7437ec91491fcd84ab78e06a8dee269f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/_Extra/DebugScript.cs using Guid(7437ec91491fcd84ab78e06a8dee269f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cf4c05ffa169ea9d495a868188c5fe0c') in 0.0175169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Controls/ComboBox/AutoCompleteComboBox.cs
+  artifactKey: Guid(ef22b091ebae52c47aa3e86ad9040c05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Controls/ComboBox/AutoCompleteComboBox.cs using Guid(ef22b091ebae52c47aa3e86ad9040c05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '73c22665717bd2471848a0adf0fb3b44') in 0.0182431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/unity-ui-extensions/Examples/SelectionBox/Selection Box Test.unity
+  artifactKey: Guid(e0944d7e4f0234f3fabb9b2f33fe073e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/SelectionBox/Selection Box Test.unity using Guid(e0944d7e4f0234f3fabb9b2f33fe073e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7e2aee856d641c873fa94096ff96970a') in 0.0197786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-LightItalic.ttf
+  artifactKey: Guid(6b0191004d8bb2846913248f96e624a3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Montserrat/Montserrat-LightItalic.ttf using Guid(6b0191004d8bb2846913248f96e624a3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '358a39cb8beb1ea3cf3a594299ed032a') in 0.0332472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scripts/_Polish/EffectScreen.cs
+  artifactKey: Guid(a9322dcdbebd54e6892bcb7231dbeb83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/_Polish/EffectScreen.cs using Guid(a9322dcdbebd54e6892bcb7231dbeb83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cf4c270277586a18e5ff815a93955191') in 0.0198153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/DOTween/readme.txt
+  artifactKey: Guid(33be98de68bbf2c4fb00901092471609) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DOTween/readme.txt using Guid(33be98de68bbf2c4fb00901092471609) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b13646fa72dfa04839443b86d4977e63') in 0.0167976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/unity-ui-extensions/Shaders/UIAdditive.shader
+  artifactKey: Guid(20fb5fa09d4675a4e94314a228763c23) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Shaders/UIAdditive.shader using Guid(20fb5fa09d4675a4e94314a228763c23) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a5aa01373f14ad249e1572102f6bd735') in 0.0230104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fonts/Montserrat/OFL.txt
+  artifactKey: Guid(09df9f90f5d2e65439fc3543a5f7c3c7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Fonts/Montserrat/OFL.txt using Guid(09df9f90f5d2e65439fc3543a5f7c3c7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8dff04fabefa077b5343742ade21bb0b') in 0.017564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/TileSizeFitter.cs
+  artifactKey: Guid(614c629b8dffdb548b9bef9189606bb9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/TileSizeFitter.cs using Guid(614c629b8dffdb548b9bef9189606bb9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bf98ae6648e86fa22ecaffa36b07d971') in 0.0194682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/unity-ui-extensions/Examples/FancyScrollView/README.md
+  artifactKey: Guid(435a8014e0736334d8dcddbf7a20d01a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Examples/FancyScrollView/README.md using Guid(435a8014e0736334d8dcddbf7a20d01a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '26e68d4d29a0a4abb9b5acb36e941bbe') in 0.0227237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Prefabs/_Particles/FirstPlaceParticle 2.prefab
+  artifactKey: Guid(87edd87ccaf6742a181f9725ca1cebb7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/_Particles/FirstPlaceParticle 2.prefab using Guid(87edd87ccaf6742a181f9725ca1cebb7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c93332b9733cf047b02dbbc9af9725c9') in 0.1467064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/unity-ui-extensions/Scripts/MenuSystem/MenuManager.cs
+  artifactKey: Guid(adf0efbc9d5b148979111e50bec1893f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/MenuSystem/MenuManager.cs using Guid(adf0efbc9d5b148979111e50bec1893f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9856a341e70eacf3455ae32632257d9d') in 0.0184529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/unity-ui-extensions/Scripts/Layout/RadialLayout.cs
+  artifactKey: Guid(1ebce7906e5d20a4fb26d8b510b81926) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/unity-ui-extensions/Scripts/Layout/RadialLayout.cs using Guid(1ebce7906e5d20a4fb26d8b510b81926) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9fcde9af721b1c71417ba3465eab7815') in 0.0203182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/DOTween/Modules/DOTweenModuleAudio.cs
+  artifactKey: Guid(a0d5edaf4bddf3d4c9a8722009343940) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DOTween/Modules/DOTweenModuleAudio.cs using Guid(a0d5edaf4bddf3d4c9a8722009343940) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ee098932a21140fa6556ee9e77d96a89') in 0.0176918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 219.037359 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
+  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0af2baf9d4f7a6af64eee6932e61f614') in 0.013881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014332 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: 'db0f98771c8915b603178cf24e694d91') in 0.0259336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8da600b3a9b86e62cda91caa740aa2af') in 0.0221288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '3c6f076645e8c607d50c051d272b7914') in 0.032837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '33cc80ef90596f0001b0612d1d69b5d0') in 0.0693146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ec482cc82274a496a5175c0e78b15715') in 0.0675326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f617496ee1b1ed099f53397a0df149a4') in 0.0205585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Shaders
+  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a62fadb2b570b1a5d2013d9f2cee85d7') in 0.0178067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a3a48b05c9b52fb9feab5486e5623995') in 0.0160964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4a853e6850ea834783399290d0039121') in 0.0320662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a5dc1f0286d4e03418b61d0f6ea03cbc') in 0.014425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8da343ca5416ae23cf90b8266f87cf8e') in 0.0153198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+ -> (artifact id: '7d40c268c5ce982e443b1f7ef1fe38b2') in 0.0227172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '10e62782b9d62edfc2d5d5bb94264e60') in 0.0174912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c304ed11cc322dd9471b36a3a5c03e3b') in 0.0158706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '073a09f90af355fbe764758622e2e7cf') in 0.0127791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '700f1fd799cd0b29d056bdcdb7377476') in 0.035744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '74d068af20fff41ffe92b82d35427c37') in 0.0162632 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
+  artifactKey: Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader using Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '30f7802f62137c21bc92ecd2578e2253') in 0.0204789 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ce35acaad3b0a57e7795697516240151') in 0.0199148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f52588c04a42612efb7244f2fb9b03b1') in 0.0178278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '49ecaec2a2652501df19bc487e9c8ef1') in 0.0275344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.702446 seconds.
+  path: Assets/Fonts/Montserrat/Montserrat-Bold.ttf
+  artifactKey: Guid(08f9a1da78372114281c95cfa540b6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Montserrat/Montserrat-Bold.ttf using Guid(08f9a1da78372114281c95cfa540b6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bd41ee2ac70d830ba9acc97101817e45') in 0.1482693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
